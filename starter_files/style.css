@@ -1,0 +1,118 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+html{
+  font-family: Helvetica, Arial, sans-serif;
+}
+header{
+  background-color: #ff8523;
+  padding: 15px 15px;
+  margin-bottom: 5px;
+  padding-bottom: 40px;
+}
+.main_navigation{
+  margin-top: 20px;
+}
+.main_navigation a{
+  border-radius: 3px;
+  border: 1px solid white;
+  padding: 10px 30px;
+  color: white;
+  text-decoration: none;
+}
+h2{
+  color: #1fabe5;
+  font-weight: bold;
+}
+h3{
+  color: #1fabe5;
+}
+section{
+  padding-bottom: 50px;
+  border-bottom: 3px solid #dddddd;
+}
+section ul li{
+  font-weight: bold;
+}
+body{
+  padding: 10px;
+  background-image:url(/Users/brandyn/projects/css_styling_assessment/starter_files/img/bg.jpg);
+  line-height: 1.6;
+}
+body > div{
+  border-radius: 5px;
+  border: 2px solid #ffd24a;
+  background-color: white;
+}
+body section{
+  padding: 15px;
+}
+section table{
+  padding-bottom: 25px;
+  border-bottom: 3px solid #dddddd;
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td{
+  border: 1px solid #046c97;
+  text-align: center;
+  padding: 10px 10px;
+}
+td img{
+  height: 25%;
+  width: 25%;
+}
+thead{
+  border: 1px solid black;
+  background-color: #1fabe5;
+  color: white;
+}
+form div{
+  background-color: #dddddd;
+  padding: 15px 15px;
+}
+form{
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+  background-color: #dddddd;
+  font-weight: bold;
+}
+.name{
+  border-radius: 5px;
+  background-color: #ff8523;
+  color: white;
+  padding: 15px 15px;
+  margin: 10px;
+}
+input{
+  padding: 10px;
+}
+textarea{
+  margin-top: 5px;
+  padding: 10px;
+  width: 97%;
+  border: 1px solid #046c97;
+}
+#submit_button{
+  background-color: #046c97;
+  border: 1px;
+  border-radius: 5px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 25px;
+  font-size: 16pt;
+}
